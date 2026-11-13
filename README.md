@@ -20,4 +20,4 @@ Tu objetivo junto a tu pareja de investigación es utilizar las **6 Herramientas
 ## 📜 Reglas del Juego
 - **Trabajo en Parejas:** Rotad el control del teclado en cada Puerta (Piloto y Copiloto).
 - **Calidad sobre Velocidad:** No se evalúa quién termina primero, sino la capacidad de explicar el resultado técnico.
-- **Transparencia en Ayudas:** Si os atascáis, podéis consultar los archivos en la carpeta `pistas/` sin penalización.
+- **Transparencia en Ayudas:** Si os atascáis, podéis consultar los archivos en la carpeta `pistas/` sin penalización.> Investigación iniciada tras el ataque al Gran Hotel olimpo.
