@@ -1,20 +1,20 @@
-# 📝 Bitácora de Investigación - Gran Hotel Olimpo
-**Equipo Auditor:** [Nombre Piloto] & [Nombre Copiloto]  
-**Fecha:** [DD/MM/AAAA]
+# 📝 Bitácora de Investigación - Gran Hotel Olimpo**Equipo Auditor:** 
+Naomi Lindheimer & Scarlett Vautier  
+**Fecha:** 13/11/2026
 
 ---
 
 ## 1. 🔑 Hallazgo Inicial (Puerta 1 - Git Bash)
-* **Comando utilizado para encontrar la credencial oculta:** `...`
-* **Código de la Llave Maestra:** `...`
-* **Primera anomalía detectada en el servidor:** 
+* **Comando utilizado para encontrar la credencial oculta:** `ls -la` (lista también los archivos ocultos, los que empiezan por punto) y `cat .llave_maestra.txt` para leer su contenido.
+* **Código de la Llave Maestra:** `GH-OLIMPO-DATA-2026-KEY`
+* **Primera anomalía detectada en el servidor:** en `data/reservas_raw.csv` el atacante introdujo 10 filas totalmente duplicadas y dejó celdas vacías (NaN) en las columnas de precios y noches.
 
 ---
 
 ## 2. 🛡️ Registro de Control de Versiones (Puerta 2 - Git & GitHub)
-* **Comando para preparar archivos (Staging):** `...`
-* **Mensaje del primer commit local:** `...`
-* **URL del repositorio público en GitHub:** `https://github.com/...`
+* **Comando para preparar archivos (Staging):** `git add README.md`
+* **Mensaje del primer commit local:** `feat: inicio de investigacion tras ataque al Gran Hotel Olimpo`
+* **URL del repositorio público en GitHub:** `https://github.com/Skvautier/prueba_1_gran_hotel_olimpo`
 
 ---
 
